@@ -10,7 +10,6 @@ export const Navigation = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (!element) return;
-
     // Altura da navbar em pixels (ex: 64)
     const navHeight = document
       .querySelector('nav')
