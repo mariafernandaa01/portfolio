@@ -9,7 +9,18 @@ export const Navigation = () => {
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
-    element?.scrollIntoView({ behavior: 'smooth' });
+    if (!element) return;
+
+    // Altura da navbar em pixels (ex: 64)
+    const navHeight = document
+      .querySelector('nav')
+      ?.getBoundingClientRect().height || 0;
+
+    const elementTop = element.getBoundingClientRect().top + window.pageYOffset;
+    window.scrollTo({
+      top: elementTop - navHeight,
+      behavior: 'smooth',
+    });
   };
 
   return (
