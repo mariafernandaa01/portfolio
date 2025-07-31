@@ -57,8 +57,8 @@
       "title": "Meu Portfólio React",
       "description": "Site de portfólio dinâmico usando React, Vite e Tailwind.",
       "technologies": ["React", "Vite", "TypeScript"],
-      "github": "https://github.com/arturbrasileiro/portfolio",
-      "demo": "https://meu-portfolio.vercel.app"
+      "github": "https://github.com/Artur-Brasileiro/Portfolio",
+      "demo": "https://artur-brasileiro.github.io/Portfolio/"
     },
     {
       "id": "proj-02",
