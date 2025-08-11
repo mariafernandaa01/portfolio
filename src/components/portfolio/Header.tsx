@@ -22,18 +22,22 @@ export const Header = ({ data, loading }: HeaderProps) => {
 
   return (
     <header className="py-8 px-6 bg-gradient-hero border-b border-border">
-      <div className="container mx-auto flex items-center gap-6">
-        <Avatar className="h-40 w-40">
+      <div className="container mx-auto flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-6 text-center md:text-left">
+        
+        {/* Avatar menor no mobile, grande em md+ */}
+        <Avatar className="h-24 w-24 md:h-40 md:w-40">
           <AvatarImage src={data?.profileImage} alt={data?.name} />
-          <AvatarFallback className="text-2xl">
+          <AvatarFallback className="text-xl md:text-2xl">
             {data?.name?.charAt(0) || 'U'}
           </AvatarFallback>
         </Avatar>
+        
         <div>
-          <h1 className="text-3xl font-bold text-foreground mb-2 transition-smooth hover:text-primary">
+          {/* Tamanho de fonte responsivo */}
+          <h1 className="text-2xl md:text-3xl font-bold text-white mb-2 whitespace-nowrap">
             {data?.name || '{{NAME_PLACEHOLDER}}'}
           </h1>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-base md:text-lg text-white">
             {data?.role || '{{ROLE_PLACEHOLDER}}'}
           </p>
         </div>

@@ -9,13 +9,16 @@ interface ContactProps {
 export const Contact = ({ data, loading }: ContactProps) => {
   if (loading) {
     return (
-      <section id="contact" className="py-16 px-6 bg-muted/20">
+      <section id="contact" className="py-16 px-4 md:px-6 bg-muted/20">
         <div className="container mx-auto max-w-4xl">
           <div className="animate-pulse">
-            <div className="h-8 bg-muted rounded w-1/4 mb-8 mx-auto"></div>
+            <div className="h-8 bg-muted rounded w-1/4 mb-6 md:mb-8 mx-auto"></div>
             <div className="grid md:grid-cols-2 gap-6">
               {[1, 2, 3, 4].map((i) => (
-                <div key={i} className="bg-card rounded-xl p-6 border border-border">
+                <div
+                  key={i}
+                  className="bg-card rounded-xl p-4 md:p-6 border border-border"
+                >
                   <div className="h-6 bg-muted rounded w-3/4 mb-2"></div>
                   <div className="h-4 bg-muted rounded w-1/2"></div>
                 </div>
@@ -56,9 +59,9 @@ export const Contact = ({ data, loading }: ContactProps) => {
   ];
 
   return (
-    <section id="contact" className="py-16 px-6 bg-muted/20">
+    <section id="contact" className="py-16 px-4 md:px-6 bg-muted/20">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="section-title text-3xl font-bold text-foreground mb-12 text-center">
+        <h2 className="section-title text-3xl font-bold text-foreground mb-6 md:mb-12 text-center">
           Contato
         </h2>
         <div className="grid md:grid-cols-2 gap-6">
@@ -70,7 +73,7 @@ export const Contact = ({ data, loading }: ContactProps) => {
                 href={method.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="card bg-gradient-card rounded-xl p-6 shadow-card border border-border hover:shadow-elevated transition-smooth group"
+                className="card bg-gradient-card rounded-xl p-4 md:p-6 shadow-card border border-border hover:shadow-elevated transition-smooth group"
               >
                 <div className="flex items-center gap-4">
                   <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-smooth">

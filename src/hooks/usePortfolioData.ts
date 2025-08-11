@@ -44,7 +44,7 @@ export const usePortfolioData = () => {
   useEffect(() => {
   const fetchPortfolioData = async () => {
     try {
-      const res = await fetch('/portfolio.json');
+      const res = await fetch(`${import.meta.env.BASE_URL}portfolio.json`);
       if (!res.ok) throw new Error('Erro ao carregar o JSON');
       const json: PortfolioData = await res.json();
       setData(json);

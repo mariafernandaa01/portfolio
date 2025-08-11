@@ -1,53 +1,70 @@
 {
-  "name": "Artur Morais Brasileiro",
+  "name": "Maria Fernanda Ferreira Fernando",
   "role": "Cursando Engenharia da Computação",
-  "bio": "Sou estudante de Engenharia de Computação na UEMG, apaixonado por tecnologia desde que montei meu primeiro circuito Arduino. Tenho me aprofundado em cibersegurança, Linux e redes de computadores, além de ser um entusiasta da cultura maker, sempre criando protótipos e pequenos projetos para aprender na prática. Nos últimos meses, desenvolvi soluções como um sistema de detecção de intrusão caseiro usando Raspberry Pi, automações com Node-RED e um mini-robô controlado por Wi-Fi, tudo para exercitar meus conhecimentos em hardware e software. Cada desafio me ensinou algo novo — seja configurando servidores Linux, analisando pacotes de rede ou escrevendo scripts de automação. Estou em busca de uma oportunidade de estágio para crescer ainda mais, colaborar com equipes reais e levar meus projetos a um próximo nível. Sou curioso, proativo e adoro dividir ideias, seja em hackathons, fóruns de segurança ou no meu GitHub. Vamos conversar?",
-  "profileImage": "Artur.jpg",
+  "bio": "Olá! Sou Maria Fernanda Ferreira, apaixonada por tecnologia e inovação, em formação na área de Engenharia da Computação. Minha jornada no mundo da tecnologia começou com um projeto prático de automação: a criação de um detector de CO₂ utilizando linguagem C, Python e software Arduino UNO — uma experiência transformadora que despertou minha curiosidade por sistemas eletrônicos inteligentes e me impulsionou a seguir carreira na tecnologia. Desde então, venho aprofundando meus conhecimentos em programação, análise de dados, desenvolvimento front-end e automação, explorando linguagens como HTML, CSS, JavaScript, TypeScript, React e Python, além de ferramentas como Power BI, SQL, Excel e Google Analytics. Também trago uma base sólida desenvolvida ao longo da minha experiência profissional anterior, atuando com atendimento, suporte administrativo e organização de processos, o que me proporcionou responsabilidade, foco e habilidade para lidar com diferentes cenários de forma estratégica. Tenho como propósito unir minha bagagem prática e técnica para contribuir com soluções inovadoras, funcionais e orientadas a resultados. Sou movida pela curiosidade, pela vontade de aprender constantemente e pelo compromisso com a evolução pessoal e profissional. Acredito que a tecnologia tem o poder de transformar realidades, e estou pronta para fazer parte dessa transformação com dedicação e propósito.",
+  "profileImage": "",
   "contact": {
-    "email": "arturbrasileiro00@gmail.com",
-    "github": "https://github.com/Artur-Brasileiro",
-    "linkedin": "www.linkedin.com/in/artur-brasileiro"
+    "email": "xasmarie@gmail.com",
+    "github": "https://github.com/mariafernandaa01",
+    "linkedin": "https://www.linkedin.com/in/maria-fernanda001/"
   },
   "skills": [
     {
-      "category": "Linguagens",
+      "category": "Programação",
       "items": [
-        { "name": "C# .NET" },
-        { "name": "Python" },
-        { "name": "Java" },
-        { "name": "Kotlin" }
+        { "name": "Python (avançado)" },
+        { "name": "C (projetos com Arduino)" },
+        { "name": "HTML, CSS, JavaScript" },
+        { "name": "React (front-end)" }
+      ]
+    },
+    {
+      "category": "Desenvolvimento Front-End",
+      "items": [
+        { "name": "Criação de interfaces responsivas e interativas" },
+        { "name": "Manipulação de DOM, eventos e componentes" },
+        { "name": "Boas práticas de estruturação e semântica" }
       ]
     },
     {
       "category": "Banco de Dados",
       "items": [
-        { "name": "PostgreSQL" },
-        { "name": "MySql" },
+        { "name": "Consultas, filtragens, e estruturação de dados" },
         { "name": "MongoDB" },
-        { "name": "Oracle Database" }
+        { "name": "PostgreSQL" }
       ]
     },
     {
-      "category": "Tecnologias",
+      "category": "Análise de Dados e Visualização",
       "items": [
-        { "name": "React" },
-        { "name": "Angular" },
-        { "name": "Google Firebase" },
-        { "name": "Android Studio" }
+        { "name": "Power BI" },
+        { "name": "Excel" },
+        { "name": "Google Analytics" },
+        { "name": "Construção de dashboards e acompanhamento de KPIs" }
+      ]
+    },
+    {
+      "category": "Plataformas e Ferramentas",
+      "items": [
+        { "name": "Salesforce (atendimento e CRM)" },
+        { "name": "Arduino (projetos com sensores e automação)" },
+        { "name": "SketchUp (modelagem e visualização técnica)" },
+        { "name": "AutoCad" },
+        { "name": "Biblioteca Pandas Python" }
       ]
     }
   ],
   "education": [
     {
       "degree": "Ensino Médio",
-      "institution": "Educandário Evangélico - Itaberaí GO",
-      "period": "2021",
+      "institution": "Colégio Santa Clara - Rio de Janeiro RJ",
+      "period": "2017",
       "status": "Completo"
     },
     {
-      "degree": "Engenharia da Computação - 8° Período",
-      "institution": "Universidade do Estado de Minas Gerais - UEMG",
-      "period": "2022 – Hoje",
+      "degree": "Engenharia da Computação",
+      "institution": "Universidade Veiga de Almeida - UVA",
+      "period": "2024 – 2028",
       "status": "Cursando"
     }
   ],

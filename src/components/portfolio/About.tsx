@@ -8,7 +8,7 @@ interface AboutProps {
 export const About = ({ data, loading }: AboutProps) => {
   if (loading) {
     return (
-      <section id="about" className="py-16 px-6">
+      <section id="about" className="py-16 px-4 md:px-6">
         <div className="container mx-auto max-w-4xl">
           <div className="animate-pulse">
             <div className="h-8 bg-muted rounded w-1/4 mb-8"></div>
@@ -24,14 +24,15 @@ export const About = ({ data, loading }: AboutProps) => {
   }
 
   return (
-    <section id="about" className="py-16 px-6">
+    <section id="about" className="py-16 px-4 md:px-6">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="section-title text-3xl font-bold text-foreground mb-8 text-center">
+        <h2 className="section-title text-2xl md:text-3xl font-bold text-foreground mb-6 md:mb-8 text-center">
           Sobre Mim
         </h2>
-        <div className="bg-gradient-card rounded-xl p-8 shadow-card border border-border">
-          <p className="text-lg text-muted-foreground leading-relaxed text-justify">
-            {data?.bio || '{{BIO_PLACEHOLDER}} - Descrição detalhada sobre experiência, objetivos e paixões na programação.'}
+        <div className="bg-gradient-card rounded-xl p-4 md:p-8 shadow-card border border-border">
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed text-justify">
+            {data?.bio ||
+              '{{BIO_PLACEHOLDER}} - Descrição detalhada sobre experiência, objetivos e paixões na programação.'}
           </p>
         </div>
       </div>
