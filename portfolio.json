@@ -2,7 +2,7 @@
   "name": "Maria Fernanda Ferreira Fernando",
   "role": "Cursando Engenharia da Computação",
   "bio": "Olá! Sou Maria Fernanda Ferreira, apaixonada por tecnologia e inovação, em formação na área de Engenharia da Computação. Minha jornada no mundo da tecnologia começou com um projeto prático de automação: a criação de um detector de CO₂ utilizando linguagem C, Python e software Arduino UNO — uma experiência transformadora que despertou minha curiosidade por sistemas eletrônicos inteligentes e me impulsionou a seguir carreira na tecnologia. Desde então, venho aprofundando meus conhecimentos em programação, análise de dados, desenvolvimento front-end e automação, explorando linguagens como HTML, CSS, JavaScript, TypeScript, React e Python, além de ferramentas como Power BI, SQL, Excel e Google Analytics. Também trago uma base sólida desenvolvida ao longo da minha experiência profissional anterior, atuando com atendimento, suporte administrativo e organização de processos, o que me proporcionou responsabilidade, foco e habilidade para lidar com diferentes cenários de forma estratégica. Tenho como propósito unir minha bagagem prática e técnica para contribuir com soluções inovadoras, funcionais e orientadas a resultados. Sou movida pela curiosidade, pela vontade de aprender constantemente e pelo compromisso com a evolução pessoal e profissional. Acredito que a tecnologia tem o poder de transformar realidades, e estou pronta para fazer parte dessa transformação com dedicação e propósito.",
-  "profileImage": "",
+  "profileImage": "maria.jpeg",
   "contact": {
     "email": "xasmarie@gmail.com",
     "github": "https://github.com/mariafernandaa01",
@@ -74,8 +74,8 @@
       "title": "Meu Portfólio React",
       "description": "Site de portfólio dinâmico usando React, Vite e Tailwind.",
       "technologies": ["React", "Vite", "TypeScript"],
-      "github": "https://github.com/Artur-Brasileiro/Portfolio",
-      "demo": "https://artur-brasileiro.github.io/Portfolio/"
+      "github": "https://github.com/mariafernandaa01/portfolio",
+      "demo": "https://mariafernandaa01.github.io/portfolio/"
     },
     {
       "id": "proj-02",
@@ -87,11 +87,11 @@
     },
     {
       "id": "proj-03",
-      "title": "Gerenciamento Familiar",
-      "description": "Aplicação web para controle financeiro de uma família",
-      "technologies": ["Angular", "TypeScript"],
-      "github": "https://github.com/Artur-Brasileiro/gerenciamento-familiar",
-      "demo": "https://artur-brasileiro.github.io/gerenciamento-familiar/"
+      "title": "Detector de CO₂",
+      "description": "Projeto de automação com Arduino UNO, sensores e programação em C.",
+      "technologies": ["Arduino", "C"],
+      "github": "https://github.com/mariafernandaa01/arduino-co2",
+      "demo": "https://github.com/mariafernandaa01/arduino-co2/blob/main/README.md"
     }
   ]
 }
